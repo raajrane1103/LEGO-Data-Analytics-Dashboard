@@ -1,4 +1,4 @@
-# LEGO Set Explorer — Excel \& Power BI Data Analytics Project
+# LEGO Set Explorer — Excel & Power BI Data Analytics Project
 
 An end-to-end data analytics project built around a LEGO set dataset. The project covers **raw data → data cleaning and transformation in Excel → interactive dashboard development in Power BI**.
 
@@ -24,7 +24,7 @@ The dashboard focuses on:
 
 ## Dashboard Preview
 
-Preview Images/Dashboard Preview - 3.png
+![LEGO Set Explorer Dashboard](Preview%20Images/Dashboard%20Preview%20-%203.png)
 
 
 ## Tools Used
@@ -41,7 +41,7 @@ Raw CSV Dataset
       ↓
 Data Inspection
       ↓
-Excel Data Cleaning \\\& Transformation
+Excel Data Cleaning & Transformation
       ↓
 Feature Creation
       ↓
@@ -75,7 +75,7 @@ The original dataset contains approximately **18.5K LEGO set records** and inclu
 
 The original source file supplied for this project is included in:
 
-Dataset files/lego_original.csv
+`Dataset files/lego_original.csv`
 
 ### Source Attribution
 
@@ -203,7 +203,7 @@ LEGO-Data-Analytics-Dashboard/
 
 Open:
 
-`data/lego\\\_transformed.xlsx`
+`Dataset files/lego_transformed.xlsx`
 
 to inspect the cleaned and transformed dataset.
 
@@ -211,7 +211,7 @@ to inspect the cleaned and transformed dataset.
 
 Open:
 
-`powerbi/LEGO\\\_Set\\\_Explorer.pbix`
+`Dashboard Explorer (Power BI)/LEGO_Set_Explorer.pbix`
 
 using **Power BI Desktop**.
 
@@ -240,9 +240,9 @@ This project demonstrates an end-to-end analytics workflow:
 
 The focus was not only on producing visuals, but on maintaining a clear distinction between **known values, missing information, and derived fields** throughout the analysis.
 
-\---
+---
 
-## Licensing & Attribution
+## Licensing
 
 The original project documentation and analytical work are provided under the MIT License.
 
