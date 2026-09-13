@@ -1,13 +1,8 @@
 # LEGO Set Explorer — Excel \& Power BI Data Analytics Project
 
-
-
 An end-to-end data analytics project built around a LEGO set dataset. The project covers **raw data → data cleaning and transformation in Excel → interactive dashboard development in Power BI**.
 
 The final deliverable is a one-page Power BI **LEGO Set Explorer** that allows users to filter and explore LEGO sets by theme group, theme, age range, and retail price, while dynamically displaying set-level details and imagery.
-
-
-
 
 
 ## Project Overview
@@ -27,8 +22,9 @@ The dashboard focuses on:
 * Set-level details
 * Dynamic LEGO set imagery
 
+## Dashboard Preview
 
-
+![LEGO Set Explorer Dashboard](Preview%20Images/dashboard_preview.png)
 
 
 ## Tools Used
@@ -36,9 +32,6 @@ The dashboard focuses on:
 * **Microsoft Excel** — data cleaning, transformation, calculated fields, and URL preparation
 * **Microsoft Power BI** — data modeling, DAX measures, interactive visualisation, filtering, and dashboard design
 * **Git / GitHub** — project version control and portfolio documentation
-
-
-
 
 
 ## Project Workflow
@@ -62,9 +55,6 @@ GitHub Documentation
 ```
 
 
-
-
-
 ## Dataset
 
 The original dataset contains approximately **18.5K LEGO set records** and includes fields such as:
@@ -85,20 +75,16 @@ The original dataset contains approximately **18.5K LEGO set records** and inclu
 
 The original source file supplied for this project is included in:
 
-`data/lego\\\_original.csv`
+Dataset files/lego_original.csv
 
-> \\\*\\\*Source attribution:\\\*\\\* The original CSV was provided as part of this project workflow. If the dataset was originally downloaded from a specific public source, that source should be credited here with its original URL.
+### Source Attribution
+
+The original CSV is included in this repository as the source dataset used for this analysis. The original public source URL could not be verified, so no source attribution has been inferred.
 
 
-
-
-
-## Data Cleaning \& Transformation
+## Excel Data Cleaning & Transformation
 
 The raw dataset was transformed in Excel before being loaded into Power BI.
-
-
-
 
 
 ### Key transformations
@@ -112,8 +98,19 @@ The raw dataset was transformed in Excel before being loaded into Power BI.
 * Retained the original Brickset URL for set-level reference.
 * Prepared the final fields for Power BI analysis and presentation.
 
+## Data Quality
 
+The original dataset contains substantial missing values in several analytical fields.
 
+| Field | Approx. Missing |
+|---|---:|
+| Minimum Age | 63% |
+| US Retail Price | 62% |
+| Minifigures | 54% |
+| Pieces | 21% |
+| Subtheme | 19% |
+
+Missing numerical values were retained as missing rather than replaced with zero.
 
 
 ### Handling missing numerical data
@@ -130,15 +127,9 @@ This distinction is important because:
 Power BI measures therefore calculate averages using the available numerical observations.
 
 
-
-
-
 ## Power BI Dashboard
 
 The final dashboard is a **single-page LEGO Set Explorer**.
-
-
-
 
 
 ### KPI Cards
@@ -150,9 +141,6 @@ The dashboard includes:
 * **Average Retail Price**
 
 
-
-
-
 ### Interactive Filters
 
 Users can filter the dataset using:
@@ -161,9 +149,6 @@ Users can filter the dataset using:
 * Theme
 * Age Range
 * US Retail Price
-
-
-
 
 
 ### LEGO Set Explorer Table
@@ -178,9 +163,6 @@ The table provides set-level information including:
 * Retail Price
 
 
-
-
-
 ### Selected Set Panel
 
 Selecting a LEGO set updates the right-hand panel with:
@@ -188,45 +170,34 @@ Selecting a LEGO set updates the right-hand panel with:
 * Selected set
 * LEGO set image
 * Set-level information
-
 This creates an interactive exploration experience rather than a static reporting page.
 
+## Key Insights
 
+The dashboard enables exploration of:
 
-
-
+- LEGO set volume across themes and theme groups
+- Differences in average piece counts across filtered sets
+- Variation in US retail prices
+- Distribution of sets across age ranges
+- Set-level comparisons using theme, price, pieces, and age
 
 
 ## Repository Structure
 
 ```text
 LEGO-Data-Analytics-Dashboard/
-
-│
-
 ├── Dashboard Explorer (Power BI)/
-
 ├── Dataset files/
-
 ├── Preview Images/
-
 ├── .gitattributes
-
 ├── .gitignore
-
 ├── LICENSE
-
 └── README.md
-
 ```
 
 
-
-
-
 ## How to Use the Project
-
-
 
 ### Excel Dataset
 
@@ -247,9 +218,6 @@ using **Power BI Desktop**.
 The dashboard can then be explored using the available filters and set-selection interactions.
 
 
-
-
-
 ## Data Limitations
 
 The source dataset contains substantial missing historical information, particularly for:
@@ -264,9 +232,6 @@ These missing values were not blindly imputed because doing so would introduce u
 The dashboard should therefore be interpreted with the available data coverage in mind, particularly when analyzing historical sets.
 
 
-
-
-
 ## Project Outcome
 
 This project demonstrates an end-to-end analytics workflow:
@@ -277,8 +242,11 @@ The focus was not only on producing visuals, but on maintaining a clear distinct
 
 \---
 
+## Licensing & Attribution
 
+The original project documentation and analytical work are provided under the MIT License.
 
+The LEGO dataset, LEGO trademarks, product imagery, and related third-party materials remain subject to their respective owners' terms and rights. LEGO® is a trademark of the LEGO Group and is not affiliated with this project.
 
 
 ## Author
@@ -287,5 +255,5 @@ The focus was not only on producing visuals, but on maintaining a clear distinct
 
 LinkedIn Profile: www.linkedin.com/in/raajrane-data
 
-skills: Excel|SQL|Power BI|Data Analytics
+Skills: Excel | SQL | Power BI | Data Analytics
 
