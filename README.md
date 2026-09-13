@@ -24,7 +24,7 @@ The dashboard focuses on:
 
 ## Dashboard Preview
 
-![LEGO Set Explorer Dashboard](https://github.com/raajrane1103/LEGO-Data-Analytics-Dashboard/edit/main/README.md)
+Preview Images/Dashboard Preview - 3.png
 
 
 ## Tools Used
